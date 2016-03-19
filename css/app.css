@@ -2,19 +2,16 @@ html {
     height: 100%;
     font-family: "Helvetica Neue" Helvetica;
 
-    background-image:url(../img/background.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position: top center;
+    background-color: rgba(50,50,50,1);
     color: #DEDEDE;
 }
 
 header {
-    background: transparent url(../img/logo.png) no-repeat left center;
+    background: transparent url(../img/logo-inverse.svg) no-repeat left center;
     background-size: contain;
     height: auto;
     text-align: right;
-    font-size: 65px;
+    font-size: 70px;
     line-height: inherit;
     padding: 20px;
     color: white;
@@ -60,4 +57,9 @@ li div {
   background-color: rgba(50,50,50,0.9);
   padding: 5px !important;
   border-radius: 5px;
+}
+
+.timeline-Widget {
+  width: 100%;
+  max-width: 100%;
 }
